@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type = "button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Insire nova imagem</h2>
+        <input type="url" id="enderco-da-nova-imagem" required placeholder="URL da imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id = "botao-Cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images/gatinhos.jpg" alt="pintura De Gato" />
+            <div class="overlay-imagem-link">
+                <a href="./images/gatinhos.jpg" title="ver a image em tamanho real."  target="blank" >
+                ver a image em tamanho real.
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <img src="./images/gato.jpg" alt="pintura De Gato" />
+            <div class="overlay-imagem-link">
+                <a href="./images/gato.jpg" title="ver a image em tamanho real."  target="blank" >
+                ver a image em tamanho real.
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <img src="./images/gatos.webp" alt="pintura De Gato" />
+            <div class="overlay-imagem-link">
+                <a href="./images/gatos.webp" title="ver a image em tamanho real."  target="blank" >
+                ver a image em tamanho real.
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
